@@ -26,6 +26,7 @@ Our program would then take those five stocks, compute the ratios and indicators
 For an individual interested in stocks: what stock is the best place for me to park my money, based on my sector interest?
 
 ## Datasets/Technologies to be Used 
-
+Datasets: we'll use free/public financial APIs to pull historical data on the various stocks within the sectors. 
+Technologies: APIs, Pandas, Plotly/HvPlot
 
 ## Breakdown of Tasks 
