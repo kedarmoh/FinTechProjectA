@@ -1,0 +1,24 @@
+Example
+listA = []
+# Input number of elemetns
+n = int(input("Enter number of elements in the list : "))
+# iterating till the range
+for i in range(0, n):
+   print("Enter element No-{}: ".format(i+1))
+   elm = int(input())
+   listA.append(elm) # adding the element
+print("The entered list is: \n",listA)
+Output
+Running the above code gives us the following result −
+
+Enter number of elements in the list : 4
+Enter element No-1:
+7
+Enter element No-2:
+45
+Enter element No-3:
+1
+Enter element No-4:
+74
+The entered list is:
+[7, 45, 1, 74]
