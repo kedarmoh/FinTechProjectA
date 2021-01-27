@@ -9,7 +9,6 @@ Project Stock Rank
 * Alex Rwamashongye
 
 ## Project Description 
-
 What are we tring to do?
 
 A program that allows an individul to select stocks they are are interested in, based on sector, and provides a stack rank of those stock based on different ratios and indicators (growth, liquidity, leverage, etc.)
@@ -17,19 +16,29 @@ A program that allows an individul to select stocks they are are interested in, 
 How?
 
 Our program would first propose a "Sector" prompt with 1-5 sectors in the dropdown. TBD.
-From there there would be a list (static?) of companies to select from (this would ensure an apples to apples comparison for the stock analysis)
+From there there would be a list (static?) of companies to select from (this would ensure an apples to apples comparison for the stock analysis).
 The user could select from up to 5 companies in that specific sector to be compared.
 Our program would then take those five stocks, compute the ratios and indicators we have predetermined, set our proprietray weighting, and provide a stack rank of the stocks selected.
 
-## Research Questions to Answer
+Update:
 
+After review, we determined that our tool would be easier to both use and build if we allow an in individual to insert the stock tickers themselves.
+
+## Research Questions to Answer
 For an individual interested in stocks: what stock is the best place for me to park my money, based on my sector interest?
 
+Update:
+
+What is the best company to invest in, based on a company's financial health.
 
 ## Datasets/Technologies to be Used 
-Datasets: we'll use free/public financial APIs to pull historical data on the various stocks within the sectors. 
+Datasets: We'll use free/public financial APIs to pull historical data on the various stocks within the sectors. 
 
 Technologies: APIs, Pandas, Plotly/HvPlot
+
+Update:
+For an API we'll use Financial Modeling Prep ("FMP")
+For a library we'll use Fundamental Analysis ("FA")
 
 ## Breakdown of Tasks 
 1. Create  list of sectors to choose from
@@ -52,6 +61,3 @@ Technologies: APIs, Pandas, Plotly/HvPlot
 1. Instead of hardcoded list of sectors, have the sector dynamically fetched from the API.
 2. Similar to sector, fetch companies dynamically.
 3. THe data in #1 and #2 can be prefetched and preprocessed for a large number of companies and updated say, weekly! 
-
-
-
