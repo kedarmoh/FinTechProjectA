@@ -2,7 +2,7 @@
 Group Project
 
 Team Members:
-> Kedar, Alex, & Nick
+Kedar, Alex, & Nick
 
 For the original project proposal, please see: projectproposal.md
 
