@@ -1,5 +1,5 @@
 # FinTechProjectA
-Group Project #, FinTech Bootcamp, January 2021
+Group Project #1, FinTech Bootcamp, January 2021
 
 Team Members:
 Kedar, Alex, & Nick
